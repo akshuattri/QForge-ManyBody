@@ -298,6 +298,3 @@ https://github.com/akshuattri/QForge-ManyBody
 
 ---
 
-## License
-
-MIT © 2026 — Akshu Attri

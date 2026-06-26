@@ -1,12 +1,10 @@
 # QForge-ManyBody
 
-**QForge-ManyBody** is an open-source Python framework for computational quantum many-body physics and open quantum systems.
+**QForge-ManyBody** is an open-source Python framework under development for computational quantum many-body physics and open quantum systems.
 
 The project provides a modular environment for implementing, testing, and extending numerical methods used in condensed matter physics, quantum statistical mechanics, and open quantum systems. It is designed for numerical experimentation, algorithm benchmarking, and reproducible scientific workflows.
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Validation](https://img.shields.io/badge/validation-14%2F14%20PASSED-brightgreen)](#validation)
 
 ---
 
@@ -258,7 +256,7 @@ Hatano-Nelson Non-Hermitian Model
 
 ---
 
-## Paper Reproductions
+## Paper Reproductions - UNDER DEVELOPMENT
 
 | Paper | Model | Command |
 |---|---|---|
@@ -296,7 +294,6 @@ If you use QForge-ManyBody in academic work, please cite the repository.
 Akshu Attri
 QForge-ManyBody
 https://github.com/akshuattri/QForge-ManyBody
-2026
 ```
 
 ---

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "qforge"
+version = "0.1.0"
+description = "Open-source computational framework for quantum many-body physics, open quantum systems, and reproducible scientific computing."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "QForge Contributors" }]
+keywords = ["quantum", "many-body", "physics", "lindblad", "exact-diagonalization", "topology"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Development Status :: 3 - Alpha",
+]
+dependencies = [
+    "numpy>=1.20",
+    "scipy>=1.7",
+    "matplotlib>=3.5",
+]
+
+[project.optional-dependencies]
+dev  = ["pytest>=7", "pytest-cov"]
+qutip = ["qutip>=4.7"]
+
+[project.scripts]
+qforge-benchmark = "scripts.benchmark:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["qforge*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "validation"]

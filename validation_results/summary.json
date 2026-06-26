@@ -1,0 +1,93 @@
+{
+  "generated": "2026-06-26 08:33 UTC",
+  "total_checks": 14,
+  "passed": 14,
+  "failed": 0,
+  "all_passed": true,
+  "checks": {
+    "2-spin dimer  E\u2080": {
+      "passed": true,
+      "expected": -3.0,
+      "computed": -3.0,
+      "rel_error": 0.0
+    },
+    "2-spin dimer  gap (4J)": {
+      "passed": true,
+      "expected": 4.0,
+      "computed": 4.0,
+      "rel_error": 0.0
+    },
+    "4-spin chain  E\u2080": {
+      "passed": true,
+      "expected": -6.464101615137756,
+      "computed": -6.464101615137756,
+      "rel_error": 0.0
+    },
+    "Hilbert-space dim (N=6)": {
+      "passed": true,
+      "expected": 64.0,
+      "computed": 64.0,
+      "rel_error": 0.0
+    },
+    "Lindblad decay  max |P_e \u2212 analytical|": {
+      "passed": true,
+      "expected": 0.0,
+      "computed": 4.200387783703796e-07,
+      "rel_error": 4.200387783703796e+23
+    },
+    "Trace preservation  max |Tr(\u03c1) \u2212 1|": {
+      "passed": true,
+      "expected": 0.0,
+      "computed": 2.220446049250313e-16,
+      "rel_error": 222044604925031.28
+    },
+    "Hermiticity  max |\u03c1 \u2212 \u03c1\u2020|": {
+      "passed": true,
+      "expected": 0.0,
+      "computed": 0.0,
+      "rel_error": 0.0
+    },
+    "Steady state  \u03c1\u2080\u2080 \u2192 1": {
+      "passed": true,
+      "expected": 1.0,
+      "computed": 0.9999999971772318,
+      "rel_error": 2.8227682413728417e-09
+    },
+    "Topological edge state  |E_edge|": {
+      "passed": true,
+      "expected": 0.0,
+      "computed": 3.17296469796562e-11,
+      "rel_error": 3.1729646979656196e+19
+    },
+    "Trivial phase gap > 0.5": {
+      "passed": true,
+      "expected": 1.4469618781928273,
+      "computed": 1.4469618781928273,
+      "rel_error": 0.0
+    },
+    "Phase boundary (v=w)  gap < trivial (finite-size scaling)": {
+      "passed": true,
+      "expected": 1.4469618781928273,
+      "computed": 0.1532109347601397,
+      "rel_error": 0.8941154310495787
+    },
+    "Ground-state magnetization Mz (h=0)": {
+      "passed": true,
+      "expected": 0.0,
+      "computed": 2.7755575615628914e-17,
+      "rel_error": 27755575615628.91
+    },
+    "Max-mixed state entropy  S = ln 2": {
+      "passed": true,
+      "expected": 0.6931471805599453,
+      "computed": 0.6931471805599453,
+      "rel_error": 0.0
+    },
+    "Pure state entropy  S = 0": {
+      "passed": true,
+      "expected": 0.0,
+      "computed": -0.0,
+      "rel_error": 0.0
+    }
+  }
+}
